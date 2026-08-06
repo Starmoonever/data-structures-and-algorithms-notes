@@ -69,3 +69,13 @@ if __name__ == "__main__":
     heapq.heapify(min_heap)
     print("\n输入列表并建立小顶堆后")
     print_heap(min_heap)
+
+    min_heap_1 = [1, 3, 2, 5, 4, 6]
+    heapq.heapify(min_heap_1)
+    print("\n输入列表并建立小顶堆后")
+    print_heap(min_heap_1)
+
+    min_heap_2 = [2, 5, 4, 6, 1, 3]
+    heapq.heapify(min_heap_2)
+    print("\n输入列表并建立小顶堆后")
+    print_heap(min_heap_2)

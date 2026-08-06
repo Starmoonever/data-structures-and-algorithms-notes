@@ -135,3 +135,7 @@ if __name__ == "__main__":
     # 判断堆是否为空
     is_empty = max_heap.is_empty()
     print(f"\n堆是否为空 {is_empty}")
+
+    max_heap_1 = MaxHeap([8, 6, 6, 7, 5, 2, 1, 4, 3, 6, 2, 9])
+    print("\n输入列表并建堆后")
+    max_heap_1.print()

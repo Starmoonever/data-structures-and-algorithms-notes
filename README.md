@@ -1,103 +1,62 @@
-<p align="center">
-  <a href="https://www.hello-algo.com/">
-    <img src="https://www.hello-algo.com/index.assets/hello_algo_header.png" width="450"></a>
-</p>
+# 数据结构与算法学习笔记
 
-<p align="center">
-  <img style="height: 60px;" src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=400&duration=3500&pause=2000&color=21C8B8&center=true&vCenter=true&random=false&width=200&lines=Hello%2C+%E7%AE%97%E6%B3%95+!" alt="hello-algo-typing-svg" />
-  </br>
-  动画图解、一键运行的数据结构与算法教程
-</p>
+这是我学习数据结构与算法时整理的个人笔记与 Python 代码实践仓库。学习内容主要参考开源教程 [《Hello 算法》](https://www.hello-algo.com/)。
 
-<p align="center">
-  <a href="https://www.hello-algo.com/">
-    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.svg" height="45"></a>
-  <a href="https://github.com/krahets/hello-algo/releases">
-    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_epub_dark.svg" height="45"></a>
-</p>
+本仓库用于记录学习过程：理解数据结构的工作原理、分析算法的时间与空间复杂度，并通过代码实现巩固所学知识。
 
-<p align="center">
-  <img src="https://www.hello-algo.com/index.assets/animation.gif" width="395">
-  <img src="https://www.hello-algo.com/index.assets/running_code.gif" width="395">
-</p>
+## 学习内容
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-snow?logo=python&logoColor=3776AB" alt="" />
-  <img src="https://img.shields.io/badge/Java-snow?logo=coffeescript&logoColor=FC4C02" alt="" />
-  <img src="https://img.shields.io/badge/C%2B%2B-snow?logo=c%2B%2B&logoColor=00599C" alt="" />
-  <img src="https://img.shields.io/badge/C-snow?logo=c&logoColor=A8B9CC" alt="" />
-  <img src="https://img.shields.io/badge/C%23-snow?logo=csharp&logoColor=512BD4" alt="" />
-  <img src="https://img.shields.io/badge/JavaScript-snow?logo=javascript&logoColor=E9CE30" alt="" />
-  <img src="https://img.shields.io/badge/Go-snow?logo=go&logoColor=00ADD8" alt="" />
-  <img src="https://img.shields.io/badge/Swift-snow?logo=swift&logoColor=F05138" alt="" />
-  <img src="https://img.shields.io/badge/Rust-snow?logo=rust&logoColor=000000" alt="" />
-  <img src="https://img.shields.io/badge/Ruby-snow?logo=ruby&logoColor=CC342D" alt="" />
-  <img src="https://img.shields.io/badge/Kotlin-snow?logo=kotlin&logoColor=7F52FF" alt="" />
-  <img src="https://img.shields.io/badge/TypeScript-snow?logo=typescript&logoColor=3178C6" alt="" />
-  <img src="https://img.shields.io/badge/Dart-snow?logo=dart&logoColor=0175C2" alt="" />
-</p>
+- 数据结构：数组、链表、栈、队列、哈希表、树、堆与图
+- 基础算法：遍历、查找与排序
+- 算法思想：分治、回溯、贪心与动态规划
+- 复杂度分析：时间复杂度与空间复杂度
 
-<p align="center">
-  简体中文
-  ｜
-  <a href="https://github.com/krahets/hello-algo/blob/main/zh-hant/README.md">繁體中文</a>
-  ｜
-  <a href="https://github.com/krahets/hello-algo/blob/main/en/README.md">English</a>
-  ｜
-  <a href="https://github.com/krahets/hello-algo/blob/main/ja/README.md">日本語</a>
-  ｜
-  <a href="https://github.com/krahets/hello-algo/blob/main/ru/README.md">Русский</a>
-</p>
+## 项目结构
 
-## 关于本书
+```text
+.
+├── algorithms-notes.md     # 个人学习笔记与知识总结
+├── codes/
+│   └── python/             # Python 算法实现与练习
+├── docs/                   # 《Hello 算法》课程文档与配套资源
+├── pyproject.toml          # Python 项目配置
+└── README.md
+```
 
-本项目旨在打造一本开源免费、新手友好的数据结构与算法入门教程。
+## 运行代码
 
-- 全书采用动画图解，内容清晰易懂、学习曲线平滑，引导初学者探索数据结构与算法的知识地图。
-- 源代码可一键运行，帮助读者在练习中提升编程技能，了解算法工作原理和数据结构底层实现。
-- 提倡读者互助学习，欢迎大家在评论区提出问题与分享见解，在交流讨论中共同进步。
+项目代码使用 Python 编写。进入代码目录后，可以运行全部测试：
 
-若本书对您有所帮助，请在页面右上角点个 Star :star: 支持一下，谢谢！
+```bash
+cd codes/python
+python test_all.py
+```
 
-## 推荐语
+也可以直接运行某个章节中的单个示例：
 
-> “一本通俗易懂的数据结构与算法入门书，引导读者手脑并用地学习，强烈推荐算法初学者阅读。”
->
-> **—— 邓俊辉，清华大学计算机系教授**
+```bash
+python chapter_sorting/quick_sort.py
+```
 
-> “如果我当年学数据结构与算法的时候有《Hello 算法》，学起来应该会简单 10 倍！”
->
-> **—— 李沐，亚马逊资深首席科学家**
+## 学习笔记
 
-## 鸣谢
+学习笔记见 [algorithms-notes.md](./algorithms-notes.md)，主要包含：
 
-<p align="left">
-  <a href="https://go.warp.dev/hello-algo">
-    <img src="https://github.com/warpdotdev/brand-assets/blob/main/Github/Sponsor/Warp-Github-LG-02.png" alt="Warp-Github-LG-02" width="500"></a>
-</p>
+- 常用数据结构的特点与操作复杂度
+- 常见算法的思路与适用场景
+- 易混淆知识点和个人理解
 
-[Warp is built for coding with multiple AI agents.](https://go.warp.dev/hello-algo)
+## 说明
 
-强烈推荐 Warp 终端，高颜值 + 好用的 AI，体验非常棒！
+- 本仓库是个人学习记录，代码以理解算法思想为主要目标，并非生产环境实现。
+- 笔记和代码会随着学习与复习持续补充、修正和重构。
+- `docs/` 目录中的教程文档、图片和示例代码来源于《Hello 算法》项目，其版权与许可证以原项目说明为准。
 
-## 贡献
+## 参考资料
 
-本开源书仍在持续更新之中，欢迎您参与本项目，一同为读者提供更优质的学习内容。
-
-- [内容修正](https://www.hello-algo.com/chapter_appendix/contribution/)：请您协助修正或在评论区指出语法错误、内容缺失、文字歧义、无效链接或代码 bug 等问题。
-- [代码转译](https://github.com/krahets/hello-algo/issues/15)：期待您贡献各种语言代码，已支持 Python、Java、C++、Go、JavaScript 等 12 门编程语言。
-- 翻译审阅：欢迎您参与本项目的多语言翻译与校对工作，帮助更多读者用母语学习数据结构与算法。
-
-欢迎您提出宝贵意见和建议，如有任何问题请提交 Issues 或微信联系 `krahets-jyd` 。
-
-感谢本开源书的每一位撰稿人，是他们的无私奉献让这本书变得更好，他们是：
-
-<p align="left">
-    <a href="https://github.com/krahets/hello-algo/graphs/contributors">
-        <img width="770" src="https://contrib.rocks/image?repo=krahets/hello-algo&max=300&columns=16" />
-    </a>
-</p>
+- [《Hello 算法》在线教程](https://www.hello-algo.com/)
+- [《Hello 算法》GitHub 仓库](https://github.com/krahets/hello-algo)
 
 ## License
 
-The texts, code, images, photos, and videos in this repository are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+本仓库保留原项目的 [LICENSE](./LICENSE)。提交或使用仓库内容时，请同时遵守《Hello 算法》及其原始许可证的相关要求。
